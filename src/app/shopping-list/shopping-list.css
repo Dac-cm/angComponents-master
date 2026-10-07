@@ -1,0 +1,26 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.shopping-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #76a5d4;
+}
+
+.shopping-item span {
+  font-size: 28px;
+}
+
+.shopping-item button {
+  padding: 10px 15px;
+  font-size: 22px;
+  font-weight: bold;
+  border: 1px solid #6d9bd1;
+  border-radius: 10px;
+  cursor: pointer;
+}

@@ -1,10 +1,14 @@
-<h1>Liste de courses</h1>
+<div class="shopping-container">
 
-<app-shopping-input
-  (addItem)="onAddItem($event)">
-</app-shopping-input>
+  <h1>Liste de courses</h1>
 
-<app-shopping-list
-  [items]="items"
-  (removeItem)="onRemoveItem($event)">
-</app-shopping-list>
+  <app-shopping-input
+    (addItem)="onAddItem($event)">
+  </app-shopping-input>
+
+  <app-shopping-list
+    [items]="items"
+    (removeItem)="onRemoveItem($event)">
+  </app-shopping-list>
+
+</div>
