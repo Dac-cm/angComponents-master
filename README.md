@@ -1,6 +1,6 @@
-# AddressBook
+# Liste d'Achat avec Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
+Ce projet à été généré avec [Angular CLI](https://github.com/angular/angular-cli).
 
 ## Development server
 
