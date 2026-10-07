@@ -1,26 +1,46 @@
 .list-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 20px 28px;
+
+  border: 1px solid #6d9bd1;
 }
 
 .shopping-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  background-color: #76a5d4;
+
+  margin-bottom: 20px;
+}
+
+.shopping-item:last-child {
+  margin-bottom: 0;
 }
 
 .shopping-item span {
+  width: 65%;
+
+  padding: 5px 10px;
+
+  background-color: #76a5d4;
+
+  border: 1px solid #4f81bd;
+
   font-size: 28px;
 }
 
 .shopping-item button {
-  padding: 10px 15px;
-  font-size: 22px;
+  padding: 10px 5px;
+
+  font-size: 24px;
   font-weight: bold;
-  border: 1px solid #6d9bd1;
+
+  background-color: #d9d9d9;
+
+  border: 1px solid #4f81bd;
   border-radius: 10px;
+
   cursor: pointer;
 }

@@ -1,8 +1,17 @@
-<ul>
+<div class="list-container">
+
   @for (item of items; track $index) {
-    <li>
-      {{ item }}
-      <button (click)="remove($index)">Supprimer</button>
-    </li>
+
+    <div class="shopping-item">
+
+      <span>{{ item }}</span>
+
+      <button (click)="remove($index)">
+        Supprimer
+      </button>
+
+    </div>
+
   }
-</ul>
+
+</div>
